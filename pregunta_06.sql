@@ -43,4 +43,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT tbl1.* FROM tbl0  inner join tbl1 on tbl0.K0 = tbl1.K0 INNER JOIN tbl2 on tbl1.K1 = tbl2.K1 where tbl0.K0='A' order by c14
+SELECT * FROM tbl1 where K0='A' order by c14

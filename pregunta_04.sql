@@ -40,4 +40,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT tbl1.K0, c16 FROM tbl0  INNER JOIN tbl1 on tbl0.K0 = tbl1.K0 INNER JOIN tbl2 on tbl1.K1 = tbl2.K1 WHERE substr(c16,1,1) = substr(tbl0.K0,1,1)
+SELECT tbl1.K0, c16 FROM tbl0  INNER JOIN tbl1 ON tbl0.K0 = tbl1.K0  WHERE substr(c16,1,1) = substr(tbl1.K0,1,1)
