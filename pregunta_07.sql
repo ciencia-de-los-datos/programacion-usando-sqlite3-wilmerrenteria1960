@@ -43,3 +43,4 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT * FROM tbl1 where K0 NOT IN ('A','B') AND c13 not in (200,900) order by c14
