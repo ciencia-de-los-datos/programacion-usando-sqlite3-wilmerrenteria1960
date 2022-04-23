@@ -37,8 +37,8 @@
 --  0  2016  564.476429
 --  1  2017  515.156364
 --  2  2018  557.559375
---  3  2019  550.998571
+--  3  2019  550.998571 
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT  strftime('%Y',c23) as YEAR , AVG( c21) FROM tbl2 GROUP by 1
+SELECT  strftime('%Y',c23) as YEAR , AVG(c21) FROM tbl2 GROUP by 1
